@@ -4,11 +4,11 @@ alert("JavaScript works!");
 
 //part 1
 
-var myname = "Matthew Maicke";
+var myname               = "Matthew Maicke";
 
-var favoriteNFLTeam ="\"DA Bears\"";
+var favoriteNFLTeam      = "\"DA Bears\"";
 
-var favoritenumber = 13;
+var favoritenumber       = 13;
 
 var theNFLBearsAreCursed = false;
 
@@ -25,9 +25,18 @@ console.log ("My name is " + myname + " and my favorite number is " + favoritenu
 
 console.log (" and my favorite football team is" + favoriteNFLTeam +" despite they are cursed " + theNFLBearsAreCursed);
 
+//part 3
 
 
 favoritenumber = prompt("New favorite number?");
+favoritenumber parseFloat(favoritenumber)
+console.log ("my name is " + myname + " my new favorite number is " + favoritenumber);
 
-console.log ("my name is " + myname + " my new favorite number is " +favoritenumber);
+
+
+
+
+
+
+
 
