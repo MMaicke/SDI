@@ -6,7 +6,7 @@
 //  Using logical operators
 
 
-/*
+
 var p;
 var q;
 var r;
@@ -19,18 +19,37 @@ if (p ||(q||r)) {
 } else {
     console.log("With " + p + " and " + q + " and "+ r + ", the outcome is FALSE.");
 };
-*/
+
 
 
 
 // problem 1
 
 
-var youth = (<10);
-var senior =(>55);
+var youth =10;
+var senior =55;
 var age = ""
 
-age = prompt("type in age")
+age = parseFloat(prompt("type in age"))
+
+if (age <= youth||age >= senior){
+console.log("price $7.00")}
+else {console.log("price $12.00")}
 
 
-console.log(age)
+// problem 2
+
+var fronta = "";
+var frontb = "";
+var backa  = "";
+var backb  = "";
+
+
+
+fronta = parseFloat(prompt("enter front right pressure"))
+frontb = parseFloat(prompt("enter front left pressure"))
+backa = parseFloat(prompt("enter rear right pressure"))
+backb = parseFloat(prompt("enter rear left pressure"))
+
+if (fronta === frontb && backa === backb){ console.log ( "meets standard")}
+else {console.log( "does not meet standard")}
