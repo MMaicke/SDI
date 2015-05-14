@@ -9,31 +9,32 @@ var symbol       = prompt("please enter + - / or *");
 
 //functions
 
-/*function addition (){
+function addition (){
 
     var sumtotal = firstnumber + secondnumber;
 
     return(firstnumber + " " + symbol + " " + secondnumber + " = " + sumtotal)
 }
-*/
+
 function subtract (){
 
     var minustotal = firstnumber - secondnumber;
 
     return (firstnumber + " " + symbol + " " + secondnumber + " = " + minustotal)
 }
-/*
+
 function multiply (){
 
     var multplytotal = firstnumber * secondnumber;
 
     return (firstnumber + " " + symbol +" " + secondnumber+ " = " + multplytotal)
 }
+
 function divide (){
 var total = firstnumber / secondnumber;
     return  (firstnumber + " " + symbol + " " + secondnumber +" = " + total)
 }
-*/
+
 // main code
 
 if( symbol === "+"){
