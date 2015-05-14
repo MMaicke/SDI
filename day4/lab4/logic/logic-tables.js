@@ -5,7 +5,7 @@
 //  Assignment 1
 //  Using logical operators
 
-
+/*
 
 var p;
 var q;
@@ -35,7 +35,7 @@ age = parseFloat(prompt("type in age"))
 if (age <= youth||age >= senior){
 console.log("price $7.00")}
 else {console.log("price $12.00")}
-
+*/
 
 // problem 2
 
@@ -46,10 +46,10 @@ var backb  = "";
 
 
 
-fronta = parseFloat(prompt("enter front right pressure"))
-frontb = parseFloat(prompt("enter front left pressure"))
-backa = parseFloat(prompt("enter rear right pressure"))
-backb = parseFloat(prompt("enter rear left pressure"))
+fronta = parseFloat(prompt("enter front right pressure"));
+frontb = parseFloat(prompt("enter front left pressure"));
+backa = parseFloat(prompt("enter rear right pressure"));
+backb = parseFloat(prompt("enter rear left pressure"));
 
 if (fronta === frontb && backa === backb){ console.log ( "meets standard")}
 else {console.log( "does not meet standard")}
