@@ -9,22 +9,29 @@ var symbol       = prompt("please enter + - / or *");
 
 //functions
 
-function addition (){
-var sumtotal = firstnumber + secondnumber;
+/*function addition (){
+
+    var sumtotal = firstnumber + secondnumber;
 
     return(firstnumber + " " + symbol + " " + secondnumber + " = " + sumtotal)
 }
-/*function subtract (minus){
-var total = firstnumber +- secondnumber;
-return minustotal
+*/
+function subtract (){
+
+    var minustotal = firstnumber - secondnumber;
+
+    return (firstnumber + " " + symbol + " " + secondnumber + " = " + minustotal)
 }
-function multiply (times){
-    var total = firstnumber +* secondnumber;
-return multplytotal
+/*
+function multiply (){
+
+    var multplytotal = firstnumber * secondnumber;
+
+    return (firstnumber + " " + symbol +" " + secondnumber+ " = " + multplytotal)
 }
-function divide (divide){
-var total = firstnumber +/ secondnumber
-    return dividetotal
+function divide (){
+var total = firstnumber / secondnumber;
+    return  (firstnumber + " " + symbol + " " + secondnumber +" = " + total)
 }
 */
 // main code
@@ -32,3 +39,8 @@ var total = firstnumber +/ secondnumber
 if( symbol === "+"){
     console.log(addition())
 }
+else if (symbol ==="-"){ console.log(subtract())
+}
+else if (symbol ==="*"){console.log(multiply())
+}
+else if (symbol ==="/") if(firstnumber === 0 || secondnumber === 0) console.log("God does not play dice and you can not divide by zero"); else{console.log(divide())}
