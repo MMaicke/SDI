@@ -8,12 +8,13 @@ function lab6() {
 
     for (var i = 0; i < teams.length; i++) {
 
-        if (teams[i] === colors[i]) {
-            console.log("the chicago " + names[i] + " color is " + colors[i])
 
-        }
+            console.log("the chicago " + teams[i] + " color is " + colors[i])
+
+
 
 
     }
 
 }
+lab6();
