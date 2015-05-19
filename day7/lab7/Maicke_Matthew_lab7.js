@@ -14,7 +14,7 @@ function Sort(set1)
     var swapped;
     do {
         swapped = false;
-        for (var i=0; i < set1.length-1; i++) {
+        for (var i=0; i < set1.length; i++) {
             if (set1[i] > set1[i+1]) {
                 var temp = set1[i];
                 set1[i] = set1[i+1];
@@ -31,7 +31,7 @@ function Sort(set2)
     var swapped;
     do {
         swapped = false;
-        for (var i=0; i < set2.length-1; i++) {
+        for (var i=0; i < set2.length; i++) {
             if (set2[i] > set2[i+1]) {
                 var temp = set2[i];
                 set2[i] = set2[i+1];
@@ -48,7 +48,7 @@ function Sort(set3)
     var swapped;
     do {
         swapped = false;
-        for (var i=0; i < set3.length-1; i++) {
+        for (var i=0; i < set3.length; i++) {
             if (set3[i] > set3[i+1]) {
                 var temp = set3[i];
                 set3[i] = set3[i+1];

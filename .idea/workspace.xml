@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e59f214-c459-4225-b16d-4231b1036845" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day7/lab7/Maicke_Matthew_lab7.js" afterPath="$PROJECT_DIR$/day7/lab7/Maicke_Matthew_lab7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day 6/day6.js" afterPath="$PROJECT_DIR$/day 6/day6.js" />
     </list>
     <ignored path="SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,8 +100,8 @@
       <file leaf-file-name="Maicke_Matthew_lab7.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day7/lab7/Maicke_Matthew_lab7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87113404">
-              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.41237113">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -936,8 +935,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day7/lab7/Maicke_Matthew_lab7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87113404">
-          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.41237113">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
         </state>
       </provider>
