@@ -2,67 +2,67 @@
 ////  Day 8 Lecture
 ////  Like cats, we're going to play with strings
 //
-
-//var
-
-var ourString;
-
-//funct
-
-function intCap(argString){
-
-    //loc var
-
-    var newString;
-    var strArray;
-    var currentWord;
-    var newWord = '';
-
-
-    //upercase
-
-    newString = argString.toUpperCase();
-
-strArray = newString.split(" ");
-
-    for ( var each in strArray){
-
-        currentWord = strArray[each];
-
-        for (var char in strArray[each]){
-
-            if (char !=0 ){
-
-                currentChar = currentWord[char].toLowerCase()
-                newWord= newWord+ currentChar
-
-                //console.log(newWord)
-
-
-            } else{
-
-                newWord = newWord + currentWord[0];
-
-
-            }
-
-        }
-
-        newWord = newWord+ ' '
-    }
-
-
-    return newWord;
-}
-
-ourString = prompt('enter a string to inital cap:',"i am batman");
-
-returnedString = intCap (ourString);
-
-
-console.log(returnedString);
-
-
+//
+////var
+//
+//var ourString;
+//
+////funct
+//
+//function intCap(argString){
+//
+//    //loc var
+//
+//    var newString;
+//    var strArray;
+//    var currentWord;
+//    var newWord = '';
+//
+//
+//    //upercase
+//
+//    newString = argString.toUpperCase();
+//
+//strArray = newString.split(" ");
+//
+//    for ( var each in strArray){
+//
+//        currentWord = strArray[each];
+//
+//        for (var char in strArray[each]){
+//
+//            if (char !=0 ){
+//
+//                currentChar = currentWord[char].toLowerCase()
+//                newWord= newWord+ currentChar
+//
+//                //console.log(newWord)
+//
+//
+//            } else{
+//
+//                newWord = newWord + currentWord[0];
+//
+//
+//            }
+//
+//        }
+//
+//        newWord = newWord+ ' '
+//    }
+//
+//
+//    return newWord;
+//}
+//
+//ourString = prompt('enter a string to inital cap:',"i am batman");
+//
+//returnedString = intCap (ourString);
+//
+//
+//console.log(returnedString);
+//
+//
 
 
 
@@ -103,11 +103,11 @@ console.log(returnedString);
 //// Using substring()
 ////  Output the substring between two index numbers in the string
 //var mySubString = "Life, the Universe, and Everything!";
-//
-//// Using charAt()
-////  Find the character at index position 6
-//var myEmail = "llewis@fullsail.com";
-//
+
+// Using charAt()
+//  Find the character at index position 6
+var myEmail = "llewis@fullsail.com";
+
 //// Using .split()
 ////  Split a string into an array and output each item individually
 //var mySplit = "Now is the time for all good men to come to the aid of the party.";
@@ -148,14 +148,14 @@ console.log(returnedString);
 //}
 //
 //
-//
-//function charAtFunction(emailArg){
-//
-//    var atSymbol = emailArg.charAt(6);
-//
-//    return atSymbol
-//
-//}
+
+function charAtFunction(emailArg){
+
+    var atSymbol = emailArg.charAt(6);
+
+    return atSymbol
+
+}
 //
 //function splitString(stringToSplit){
 //
@@ -188,7 +188,7 @@ console.log(returnedString);
 //
 ////console.log("we have returned "+ substrFunction(mySubString)+"\"");
 //
-//////console.log('the char at index 6 is ' +charAtFunction(myEmail));
+console.log('the char at index 6 is ' +charAtFunction(myEmail));
 ////
 ////var returnedArray= splitString(mySplit);
 ////
