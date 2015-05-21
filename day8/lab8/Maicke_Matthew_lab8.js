@@ -37,3 +37,16 @@
 
 //problem 2
 
+
+var bombermotto; 
+
+var comma;
+
+ var slash; 
+
+ bombermotto = "bombs,on,target";
+
+ comma = ",";
+
+ slash = " ";
+
