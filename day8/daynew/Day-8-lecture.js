@@ -29,11 +29,27 @@ var mySplit = "Now is the time for all good men to come to the aid of the party.
 
 function wheresAdam (whereIsIt){
     var where = whereIsIt.lastIndexOf("Adam");
-    var where2 = whereIsIt.indexOf("dam")
+    var where2 = whereIsIt.indexOf("dam");
 
     return where
 
 
 }
 
-console.log("the index is "+wheresAdam(myIndexOf)
+function subStrFunction(hitchArg) {
+
+
+    var theT= hitchArg.indexOf("t");
+
+   var thecomma = hitchArg.indexOf(",", theT);
+    var theUniverse = hitchArg.substring(theT,thecomma);
+
+    return theUniverse
+
+
+
+}
+
+//console.log("the index is "+ wheresAdam(myIndexOf));
+
+console.log("we have returned "+ subStrFunction(mySubString)+"\"");
