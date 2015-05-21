@@ -88,10 +88,10 @@
 
 
 
-//// Using .indexOf()
-////  Find if the substring "Adam" appears in the string and where
-//var myIndexOf = "Madam, I'm Adam.";
-//
+// Using .indexOf()
+//  Find if the substring "Adam" appears in the string and where
+var myIndexOf = "Madam, I'm Adam.";
+
 //// Using .lastIndexOf()
 ////  Find if the substring "time" appears in the string and where
 //var myLastIndexOf = "There is a time and a place for everything, and this is neither the time nor the place";
@@ -108,18 +108,18 @@
 //  Find the character at index position 6
 var myEmail = "llewis@fullsail.com";
 
-//// Using .split()
-////  Split a string into an array and output each item individually
-//var mySplit = "Now is the time for all good men to come to the aid of the party.";
-//
-//
+// Using .split()
+//  Split a string into an array and output each item individually
+var mySplit = "Now is the time for all good men to come to the aid of the party.";
+
+////
 //function wheresAdam (whereIsIt){
 //    var where = whereIsIt.lastIndexOf("Adam");
 //    var where2 = whereIsIt.indexOf("dam");
 //
 //    return where
 //
-//
+
 //}
 //
 //function subStrFunction(hitchArg) {
@@ -148,22 +148,22 @@ var myEmail = "llewis@fullsail.com";
 //}
 //
 //
-
-function charAtFunction(emailArg){
-
-    var atSymbol = emailArg.charAt(6);
-
-    return atSymbol
-
-}
 //
-//function splitString(stringToSplit){
+//function charAtFunction(emailArg){
 //
-//    var splitArray = stringToSplit.split(' ',4)
+//    var atSymbol = emailArg.charAt(6);
 //
-//    return splitArray
+//    return atSymbol
+//
 //}
-//
+
+function splitString(stringToSplit){
+
+    var splitArray = stringToSplit.split(' ',4)
+
+    return splitArray
+}
+
 //
 //function changeCase(caseString){
 //
@@ -183,14 +183,14 @@ function charAtFunction(emailArg){
 //
 //
 //
-//
-////console.log("the index is "+ wheresAdam(myIndexOf));
-//
+////
+//console.log("the index is "+ wheresAdam(myIndexOf));
+////
 ////console.log("we have returned "+ substrFunction(mySubString)+"\"");
 //
-console.log('the char at index 6 is ' +charAtFunction(myEmail));
+//console.log('the char at index 6 is ' +charAtFunction(myEmail));
 ////
-////var returnedArray= splitString(mySplit);
+var returnedArray= splitString(mySplit);
 ////
 ////console.log(returnedArray)
 ////
