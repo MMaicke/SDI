@@ -3,7 +3,7 @@
 
 //problem 1
 
-
+alert("if email is true then its real")
 //gobal var
 
 var myemail= "matthew_maicke@fullsail.edu";
@@ -23,20 +23,26 @@ function emails(argemail){
 
 
     if (at == -1) {
+        return false;
 
-        return false
+    } else if (secondat != at){
+
+        return false;
+
+    } else if (dot == -1) {
+        return false;
+
+    } else if (space == 0) {
+        return false;
+
+    } else {
+        return true;
 
     }
 
-    else if (dot == -1){
-
-        return false
-    }
-
-    else { return true}
 }
-returnedstring=emails(myemail);
-console.log("my email is" + returnemail)
+returned=emails(myemail);
+console.log("my email is " + myemail +' '+ returned)
 
 //prob 2
 
