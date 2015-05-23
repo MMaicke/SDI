@@ -25,6 +25,24 @@
 //prob 2
 
 
+//var
+
+var string = "23";
+
+
+function conversion(){
+
+newstring=parseInt(string)
+
+
+return newstring
+
+
+}
+
+conversion();
+
+console.log("the number is " + string + " it went into a function as a string data and came out as a number data. " + newstring);
 
 
 //
