@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e59f214-c459-4225-b16d-4231b1036845" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day10/day10.js" afterPath="$PROJECT_DIR$/day10/day10.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day10/lab10/Matthew_Maicke_lab10.js" afterPath="$PROJECT_DIR$/day10/lab10/Matthew_Maicke_lab10.js" />
     </list>
     <ignored path="SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,20 +77,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matthew_Maicke_lab10.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Matthew_Maicke_lab10.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day10/lab10/Matthew_Maicke_lab10.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4745167">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sdi-lab10.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sdi-lab10.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day10/lab10/sdi-lab10.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -160,6 +160,7 @@
         <option value="$PROJECT_DIR$/day9/lab/Matthew_Maicke_Lab9.js" />
         <option value="$PROJECT_DIR$/day10/day10.html" />
         <option value="$PROJECT_DIR$/day10/day10.js" />
+        <option value="$PROJECT_DIR$/day10/lab10/Matthew_Maicke_lab10.js" />
       </list>
     </option>
   </component>
@@ -1039,7 +1040,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10/lab10/Matthew_Maicke_lab10.js">
+    <entry file="file://$PROJECT_DIR$/day10/lab10/sdi-lab10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1047,10 +1048,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10/lab10/sdi-lab10.html">
+    <entry file="file://$PROJECT_DIR$/day10/lab10/Matthew_Maicke_lab10.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4745167">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
