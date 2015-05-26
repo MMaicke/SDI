@@ -123,12 +123,20 @@ function findnumber(argarray,argnumber){
 
     var nextGreatest = 0
 
+    var argarray= argarray.sort()
+
     for (var i = 0; i < argarray.length; i++){
 
-        console.log(argarray[i])
+        if (argnumber < argarray[i]) {
+
+           return argarray[i]
+
+
+
+        }
 
     }
-
+return nextGreatest
 
 }
 
